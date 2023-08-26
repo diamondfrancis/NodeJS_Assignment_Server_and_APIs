@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
         if (err) {
             if (err.code === 'ENOENT') {
                 // File not found
-                const errorFilePath = path.join(__dirname, '404.html');
+                const errorFilePath = path.join(__dirname, '/404.html');
                 fs.readFile(errorFilePath, (error, errorContent) => {
                     if (error) {
                         res.writeHead(500);
