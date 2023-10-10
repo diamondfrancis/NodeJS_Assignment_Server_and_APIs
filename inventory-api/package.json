@@ -1,34 +1,16 @@
-{
-  "users": [
-      {
-          "id": "one-uuid",
-          "username": "user1",
-          "email": "user1@example.com",
-          "password": "password1",
-          "role": "normal",
-          "apiKey": "api-key-1"
-      },
-      {
-          "id": "two-uuid",
-          "username": "admin",
-          "email": "admin@example.com",
-          "password": "password2",
-          "role": "admin",
-          "apiKey": "api-key-2"
-      }
-  ],
-  "inventory": [
-      {
-          "id": "item-uuid-1",
-          "name": "Item 1",
-          "price": 10,
-          "size": "M"
-      },
-      {
-          "id": "item-uuid-2",
-          "name": "Item 2",
-          "price": 20,
-          "size": "L"
-      }
-  ]
-}
+ {
+    "name": "inventry-api",
+    "version": "1.0.0",
+    "description": "This is a server",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Diamond Francis",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "one-uuid",
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "password1",
+        "role": "normal",
+        "apiKey": "api-key-1"
+    },
+    {
+        "id": "two-uuid",
+        "username": "admin",
+        "email": "admin@example.com",
+        "password": "password2",
+        "role": "admin",
+        "apiKey": "api-key-2"
+    }
+]

@@ -8,8 +8,8 @@ const PORT = 3000;
 app.use(express.json());
 
 // Load data
-let users = require('./package.json');
-let inventory = require('./package.json');
+let users = require('./users.json');
+let inventory = require('./inventory.json');
 
 // Check the API key
 app.use((req, res, next) => {
